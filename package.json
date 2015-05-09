@@ -1,0 +1,36 @@
+{
+  "name": "btcxr",
+  "preferGlobal": true,
+  "bin": {
+    "bitcoin": "./bin/btcxr.js"
+  },
+  "main" : "./index.js",  
+  "version": "0.0.1",
+  "description": "Get Bitcoin exchange rate by Alpha 3 currency code.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/afj176/btcxr.git"
+  },  
+  "author": {
+    "name": "afj176",
+    "email": "afj176@gmail.com",
+    "url": "codeti.me"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "bitcoin", "exchange", "exchange-rate", "currency", "btc", "btx", "blockchain"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
