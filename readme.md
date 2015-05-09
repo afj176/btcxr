@@ -24,7 +24,6 @@ $ npm install --save btcxr
 #### Usage as module
 
 ```js
-'use strict';
 var btcxr = require('btcxr');
 
 function bitcoinCallback(bitcoin){
