@@ -2,9 +2,9 @@
   "name": "btcxr",
   "preferGlobal": true,
   "bin": {
-    "bitcoin": "bin/btcxr.js"
+    "bitcoin": "lib/btcxr.js"
   },
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Get Bitcoin exchange rate by Alpha 3 currency code.",
   "license": "MIT",
   "repository": {

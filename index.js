@@ -1,6 +1,6 @@
 'use strict';
 var https = require('https'),
-    isBitcoinBin = (typeof process.argv[1] !== "undefined") ? process.argv[1].indexOf("bin/bitcoin") : -1;
+    isBitcoinBin = (typeof process.argv[1] !== "undefined") ? process.argv[1].indexOf("lib/bitcoin") : -1;
 
 var btcxr = function (currency, cb){
   
